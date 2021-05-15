@@ -1,0 +1,671 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+header {
+    background-image: url(../assets/imgs/bg@2x.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.start-user {
+    display: flex;
+    flex-direction: row;
+}
+
+.start-user a {
+    color: #d55d71;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+header .btn {
+    background-color: white;
+    color: #d55d71;
+    border-radius: 20px;
+}
+
+.start {
+    height: 600px;
+    text-align: center;
+}
+
+.start .img-header {
+    padding-top: 140px;
+    padding-right: 25px !important;
+}
+
+.start-img {
+    position: relative;
+}
+
+.img2-header {
+    position: absolute;
+    bottom: -30px;
+    left: 630px;
+}
+
+
+/* start rec */
+
+.rec {
+    text-align: center;
+    margin: auto;
+    margin-top: -70px;
+    height: 100px;
+    width: 80%;
+    background: linear-gradient(270deg, #f5855a, #ca4558);
+    background-size: 400% 400%;
+}
+
+.rec-car {
+    text-align: center;
+    margin: auto;
+    margin-top: -70px;
+    height: 220px;
+    width: 75%;
+    padding-left: 20px;
+    background: linear-gradient(270deg, #f5855a, #ca4558);
+    background-size: 400% 400%;
+}
+
+.rec form {
+    padding: 30px;
+}
+
+.rec .form-control {
+    border-radius: 40px;
+    height: 50px;
+}
+
+
+/* start icons */
+
+.icons-box {
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient(to right, rgb(177, 147, 142), rgb(219, 82, 61));
+    border-radius: 50%;
+}
+
+.icons-box i {
+    padding-top: 40px;
+}
+
+.foot-pag {
+    margin-top: -55px;
+}
+
+.icons .form-control {
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: #444444;
+    height: 30px;
+}
+
+.icons-btn .text-black-50 {
+    color: whitesmoke !important;
+}
+
+
+/* start items */
+
+.items-a {
+    display: flex;
+    flex-direction: row;
+}
+
+.items span {
+    color: #ff9d77;
+    font-size: 40px;
+}
+
+.items h3 {
+    color: #e08796;
+    padding-top: 20px;
+}
+
+.items .card-a {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body h3 {
+    color: #444444;
+}
+
+.items .card-a i {
+    color: #cd4a5e;
+}
+
+.items .card-a h5 {
+    color: #7f7f7f;
+}
+
+.items .card-body {
+    background-color: #f5f5f5;
+    border-radius: 0 0 20px 20px;
+}
+
+.items .card {
+    border: none;
+}
+
+
+/* start info */
+
+.info-bt button {
+    padding: 0 120px 0 120px;
+    font-size: 40px;
+    border-radius: 30px;
+    background-color: #ff976e;
+    outline: none;
+    border: none;
+}
+
+.info-a {
+    background-image: url(../assets/imgs/Rectangle\ 9@2x.png);
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.info-a .form-control {
+    border-radius: 40px;
+    height: 70px;
+}
+
+.info-b {
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.info-btn button {
+    padding: 15px 100px 15px 100px;
+    border-radius: 40px;
+    background-color: white;
+    color: #ff976e;
+    border: none;
+    font-size: 25px;
+}
+
+
+/* start footer */
+
+footer {
+    background-image: url(../assets/imgs/Rectangle\ 12@2x.png);
+    background-size: control;
+}
+
+footer img {
+    width: 300px;
+    padding: 30px 80px 0 0;
+}
+
+footer .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.foot-pag img {
+    width: 25%;
+    margin-right: 60px;
+}
+
+.foot-pag p {
+    line-height: 2;
+}
+
+.foot-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.bton-a button {
+    padding-left: 40px;
+    padding-right: 10px;
+    background-color: white;
+    color: #ab3145;
+    border-radius: 30px;
+    border: 0;
+}
+
+.bton-a {
+    position: relative;
+}
+
+.bton-b {
+    position: relative;
+}
+
+.bton-b button {
+    padding-left: 50px;
+    padding-right: 20px;
+    background-color: white;
+    color: #ab3145;
+    border-radius: 30px;
+    border: 0;
+}
+
+.bton-a i {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    color: #f5855a;
+}
+
+.bton-b i {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    color: #f5855a;
+}
+
+
+/* start login */
+
+.start-log {
+    height: 150px;
+}
+
+.start-log .img-header {
+    padding-top: 0;
+    margin-top: -100px;
+}
+
+.start-img {
+    position: relative;
+}
+
+.logina {
+    padding-top: 80px;
+    background-color: #f1f1f1;
+    padding-bottom: 80px;
+}
+
+.logina .hh {
+    background-color: white;
+    width: 100%;
+    margin-left: -15px;
+    margin-right: 15px;
+    border-radius: 0 20px 20px 0;
+}
+
+.logina .kk img {
+    width: 70%;
+}
+
+.logina {
+    /* text-align: center; */
+    padding-right: 25px;
+}
+
+.logina .form-control {
+    border-radius: 30px;
+    background-color: #cf455c;
+    height: 50px;
+}
+
+.log-b {
+    background-image: url(../assets/imgs/Rectangle\ 51.png);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logina button {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 40px;
+    background-color: #ab3145;
+    outline: none;
+    border: none;
+}
+
+.log-d {
+    color: #f06e84;
+}
+
+.logina .form-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.logina .form-group i {
+    margin-left: -40px;
+    z-index: 2;
+    margin-right: 20px;
+}
+
+.logina .form-group ::placeholder {
+    color: white !important;
+    padding-right: 37px;
+}
+
+.logina .form-group .fa-lock {
+    padding-top: 30px;
+}
+
+.log-d .first {
+    padding-left: 330px;
+}
+
+
+/* start cars */
+
+.page-link {
+    color: white;
+    background-color: #cf455c;
+}
+
+
+/* start detailes */
+
+.detaiels {
+    background-color: #e6e6e6;
+}
+
+.detaiels h2 {
+    color: #444444;
+    padding-right: 20px;
+}
+
+.detaiels p {
+    color: #fba887;
+    font-size: 25px;
+}
+
+.detaiels-img {
+    filter: brightness(50%);
+    background-image: url('../assets/imgs/2.png');
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.detaiels-ico {
+    display: flex;
+    flex-direction: row;
+    padding-right: 190px;
+}
+
+.detaiels-ia {
+    color: #d55d71;
+}
+
+.detaiels-ia i {
+    padding-right: 50px;
+}
+
+.detaiels-ia h6 {
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.detaiels-ib {
+    color: #f5855a;
+}
+
+.detaiels-ib i {
+    padding-right: 50px;
+}
+
+.detaiels-form .form-control {
+    border-radius: 40px;
+    height: 50px;
+    background-color: white;
+    border: none;
+}
+
+.detaiels-form .form-control::placeholder {
+    font-size: 20px;
+    color: gray;
+}
+
+.desc-a {
+    background-color: white;
+    color: gray;
+    font-size: 18px;
+    line-height: 1.9;
+    margin-right: 30px;
+    border-radius: 40px;
+}
+
+.desc-b h4 {
+    color: #cf455c;
+}
+
+.desc-c {
+    background-color: white;
+    padding: 20px 0 15px 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.desc-c p {
+    color: gray;
+    font-size: 19px;
+    text-align: center;
+}
+
+.desc-d label {
+    color: #ca4558;
+    font-weight: bold;
+}
+
+.desc-d textarea {
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.detaiels .detaiels-img {}
+
+.detaiels .detaiels-icon {
+    position: relative;
+}
+
+.detaiels .detaiels-icon {
+    position: absolute;
+    bottom: 80%;
+    right: 50%;
+}
+
+.detaiels-bn button {
+    border-radius: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    color: #cf455c;
+    background-color: white;
+    font-size: 55px;
+}
+
+.detaiels-btn {
+    padding-top: 50px;
+    padding-right: 15px;
+    width: 80%;
+}
+
+.detaiels-btn button {
+    background-color: #ca4558;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+}
+
+.detaiels-btn .btn-c {
+    background-color: #ff8a5c;
+}
+
+.name {
+    position: relative;
+}
+
+.name i {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: gray;
+}
+
+.name {
+    background-color: white;
+    width: 90%;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.name h2 {
+    color: #ab3145;
+    padding-right: 50px;
+}
+
+.name h6 {
+    color: #ab3145;
+    padding-right: 60px;
+    margin-top: -20px;
+}
+
+.name h5 {
+    padding-right: 40px;
+    color: #444444;
+}
+
+.info-e {
+    padding-top: 20px;
+    background-color: #5e5959;
+    color: white;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 80%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.info-e i {
+    padding-right: 10px;
+    color: #f5855a;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.info-e p {
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+    padding-right: 30px;
+}
+
+
+/* start add */
+
+.add {
+    background-color: #f1f1f1;
+    padding-bottom: 100px;
+}
+
+.add-b {
+    background-color: #ececec;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin: 0 20px;
+    box-shadow: -3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.add-a {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.add span {
+    font-size: 50px;
+    color: #ff9d77;
+    font-weight: bold;
+}
+
+.add h5 {
+    padding-top: 25px;
+    padding-right: 10px;
+    color: #dc8996;
+    font-weight: bold;
+}
+
+.add-b .form-control {
+    padding-right: 20px;
+    border-radius: 40px;
+    width: 70%;
+}
+
+.add-b label {
+    color: #ff9d77;
+    font-weight: bold;
+    padding-right: 25%;
+}
+
+.add-btn {
+    margin-top: 60px;
+    padding-right: 90px;
+}
+
+.add-btn button {
+    background: linear-gradient(270deg, #ff8a5c, #ab3145);
+    padding: 5px 60px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+/* start e3lan */
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.col1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-c h5 {
+    color: #ff9d77;
+}
+
+.add-c .form-check-input {
+    margin-right: 15px;
+}
+
+.add-c .col1 {
+    margin-right: 25px;
+}
+
+.add-c label {
+    padding-right: 0;
+}
+
+.add-d {
+    margin-right: 50px;
+}
+
+.icons-select {
+    position: relative;
+}
+
+.icons-select i {
+    color: #f5855a;
+    position: absolute;
+    right: 350px;
+    top: 10%;
+}
